@@ -2,7 +2,7 @@
 # vim: ft=yaml
 ---
 zabbix:
-  version_repo: 2.2
+  version_repo: 4.4
   user: zabbix
   group: zabbix
   home: /var/lib/zabbix
@@ -17,9 +17,9 @@ zabbix:
     logfile: /var/log/zabbix/zabbix_agentd.log
     logfilesize: '0'
     server:
-      - 127.0.0.1
+      - 116.203.104.67
     serveractive:
-      - 127.0.0.1
+      - 116.203.104.67
     includes:
       - /etc/zabbix/zabbix_agentd.d/
   server:
